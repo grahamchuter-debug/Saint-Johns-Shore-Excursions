@@ -9,7 +9,7 @@
     "lint": "eslint",
     "qa:legacy-names": "node scripts/qa-legacy-names.mjs",
     "check-links": "node scripts/check-links.mjs",
-    "deploy": "npm run build && wrangler deploy",
+    "deploy": "npm run build && wrangler deploy -c wrangler.jsonc",
     "pages:deploy": "npm run build && wrangler pages deploy out --project-name=saint-johns-shore-excursions",
     "optimize:images": "node scripts/optimize-images.mjs",
     "prebuild": "node scripts/optimize-images.mjs"
