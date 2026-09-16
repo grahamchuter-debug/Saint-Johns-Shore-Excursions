@@ -73,17 +73,20 @@ export function getResponsiveSources(base: string, role: ImageRole): ResponsiveS
   const widths = widthsForRole(base, role);
   const largest = widths[widths.length - 1] ?? displayWidth;
 
-  if (role === "og" && "ogSrc" in entry && entry.ogSrc) {
-    const og = "og" in entry ? entry.og : undefined;
+  if (role === "og" && entry && "ogSrc" in entry && typeof (entry as { ogSrc?: unknown }).ogSrc === "string") {
+    const ogEntry = entry as {
+      ogSrc: string;
+      og?: { width?: number; height?: number };
+    };
     return {
       base,
       sizes,
-      width: og?.width ?? 1200,
-      height: og?.height ?? 630,
-      src: entry.ogSrc,
+      width: ogEntry.og?.width ?? 1200,
+      height: ogEntry.og?.height ?? 630,
+      src: ogEntry.ogSrc,
       srcSetAvif: `/images/opt/${base}-og1200.avif`,
       srcSetWebp: `/images/opt/${base}-og1200.webp`,
-      srcSetJpg: entry.ogSrc,
+      srcSetJpg: ogEntry.ogSrc,
       preloadAvif: `/images/opt/${base}-og1200.avif`,
       preloadWebp: `/images/opt/${base}-og1200.webp`,
     };

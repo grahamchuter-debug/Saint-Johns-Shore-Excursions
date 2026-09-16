@@ -1,11 +1,19 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "saint-johns-shore-excursions",
+  "main": "worker.ts",
   "account_id": "5624f9e476ac1e2047374399a607ab62",
   "compatibility_date": "2026-06-25",
   "observability": { "enabled": true },
   "assets": {
+    "binding": "ASSETS",
+    "not_found_handling": "404-page",
+    "run_worker_first": true,
     "directory": "out",
     "html_handling": "auto-trailing-slash"
-  }
+  },
+  "routes": [
+    { "pattern": "saintjohnsshoreexcursions.com", "custom_domain": true },
+    { "pattern": "www.saintjohnsshoreexcursions.com", "custom_domain": true }
+  ]
 }

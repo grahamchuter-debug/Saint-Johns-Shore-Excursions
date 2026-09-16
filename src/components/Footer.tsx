@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { GEO_LABEL, SITE_NAME } from "@/lib/site";
+import { GEO_LABEL, SITE_NAME, CONTACT_EMAIL } from "@/lib/site";
 import {
   destinationGuideLinks,
   excursionLinks,
@@ -27,6 +27,15 @@ export function Footer() {
           >
             Enquire about excursions →
           </Link>
+          <p className="mt-3 text-sm">
+            <a
+              href={`mailto:${CONTACT_EMAIL}`}
+              className="font-semibold text-amber-300 hover:text-amber-200"
+            >
+              {CONTACT_EMAIL}
+            </a>
+          </p>
+
         </div>
         <div>
           <p className="font-semibold text-white">Port &amp; planning guides</p>
@@ -62,7 +71,7 @@ export function Footer() {
           </ul>
         </div>
       </div>
-      <div className="border-t border-slate-800">
+<div className="border-t border-slate-800">
         <div className="mx-auto flex max-w-6xl flex-col gap-2 px-4 py-6 text-xs text-slate-500 sm:flex-row sm:justify-between">
           <p>
             © {new Date().getFullYear()} {SITE_NAME}. All rights reserved.

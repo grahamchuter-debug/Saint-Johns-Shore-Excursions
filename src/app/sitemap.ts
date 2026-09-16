@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 import { excursions, staticGuidePaths } from "@/lib/excursions";
-import { SITE_URL } from "@/lib/site";
+import { absoluteUrl } from "@/lib/site";
 
 export const dynamic = "force-static";
 
@@ -9,7 +9,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const paths = ["", ...staticGuidePaths, ...excursions.map((e) => e.path)];
 
   return [...new Set(paths)].map((path) => ({
-    url: `${SITE_URL}${path}`,
+    url: absoluteUrl(path || "/"),
     lastModified: now,
     changeFrequency: "weekly" as const,
     priority:

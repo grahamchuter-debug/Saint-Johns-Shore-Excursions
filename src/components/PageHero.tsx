@@ -6,6 +6,7 @@ import { imageBaseFromSrc } from "@/lib/responsive-images";
 interface PageHeroProps {
   title: string;
   subtitle?: string;
+  eyebrow?: string;
   children?: React.ReactNode;
   compact?: boolean;
   image?: SiteImage;
@@ -18,6 +19,7 @@ interface PageHeroProps {
 export function PageHero({
   title,
   subtitle,
+  eyebrow,
   children,
   compact,
   image,
@@ -44,6 +46,11 @@ export function PageHero({
       />
       <div className="hero-overlay" aria-hidden="true" />
       <div className="container-wide relative z-10 px-4 sm:px-6 lg:px-8">
+        {eyebrow && (
+          <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-amber-200">
+            {eyebrow}
+          </p>
+        )}
         <h1 className="font-display text-3xl font-semibold leading-tight sm:text-4xl lg:text-5xl max-w-3xl">
           {title}
         </h1>

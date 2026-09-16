@@ -1,4 +1,4 @@
-import { absoluteUrl, SITE_NAME, SITE_URL } from "./site";
+import { absoluteUrl, SITE_NAME, SITE_URL, CONTACT_EMAIL } from "./site";
 
 export type BreadcrumbItem = { name: string; href?: string };
 
@@ -36,6 +36,13 @@ export function organizationSchema() {
     "@type": "Organization",
     name: SITE_NAME,
     url: absoluteUrl("/"),
+    email: CONTACT_EMAIL,
+    contactPoint: {
+      "@type": "ContactPoint",
+      contactType: "customer service",
+      email: CONTACT_EMAIL,
+      url: absoluteUrl("/enquire/"),
+    },
     description:
       "Independent shore excursion planning and enquiries for cruise passengers in St. John's, Newfoundland and Labrador.",
     areaServed: {

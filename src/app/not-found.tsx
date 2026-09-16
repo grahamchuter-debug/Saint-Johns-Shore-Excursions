@@ -1,3 +1,4 @@
+import { CONTACT_EMAIL } from "@/lib/site";
 import Link from "next/link";
 
 export default function NotFound() {
@@ -28,6 +29,13 @@ export default function NotFound() {
           Enquire
         </Link>
       </div>
+    
+      <p className="mt-10 text-sm text-slate-600">
+        Need help?{" "}
+        <a href={`mailto:${CONTACT_EMAIL}`} className="font-semibold text-blue-800 hover:underline">
+          {CONTACT_EMAIL}
+        </a>
+      </p>
     </div>
   );
 }
