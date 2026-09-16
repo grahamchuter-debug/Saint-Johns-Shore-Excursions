@@ -28,9 +28,9 @@ const faqs = [
 ];
 
 export const metadata: Metadata = pageMetadata({
-  title: "Quidi Vidi Village Guide — St. John's, Newfoundland and Labrador",
+  title: "Quidi Vidi Village Guide — Visit the Harbour From St. John's Port",
   description:
-    "Quidi Vidi Village guide for cruise passengers — harbour, brewery, crafts, walking distances, and tours from St. John's, Newfoundland and Labrador.",
+    "Visit Quidi Vidi Village from the St. John's cruise port — harbour walks, brewery, crafts, distances, and how it fits a Newfoundland port day.",
   path,
 });
 

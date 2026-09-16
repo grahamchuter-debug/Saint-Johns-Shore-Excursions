@@ -71,9 +71,9 @@ const faqs = [
 ];
 
 export const metadata: Metadata = pageMetadata({
-  title: "When Can You See Icebergs In Newfoundland? — Cruise Passenger Guide",
+  title: "When Can You See Icebergs in Newfoundland? — Season & Cruise Timing",
   description:
-    "Honest iceberg season guide for St. John's, Newfoundland and Labrador cruise passengers — Iceberg Alley, best months, viewing spots, ship approaches, and what is never guaranteed.",
+    "When can you see icebergs in Newfoundland from St. John's? Iceberg Alley season months, viewing spots, and honest cruise-passenger expectations.",
   path,
 });
 

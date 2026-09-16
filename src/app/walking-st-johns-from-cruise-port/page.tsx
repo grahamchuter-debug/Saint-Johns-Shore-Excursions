@@ -28,9 +28,9 @@ const faqs = [
 ];
 
 export const metadata: Metadata = pageMetadata({
-  title: "Walking St. John's From The Cruise Port — Newfoundland and Labrador",
+  title: "Walking St. John's From Cruise Port — Distances, Hills & City Routes",
   description:
-    "Walking guide from the St. John's, Newfoundland and Labrador cruise terminal — distances, hills, taxis, Jellybean Row, and return-to-ship timing.",
+    "Walking from the St. John's cruise port — downtown distances, hills, Jellybean Row, Quidi Vidi options, taxis, and return-to-ship timing for Newfoundland port days.",
   path,
 });
 

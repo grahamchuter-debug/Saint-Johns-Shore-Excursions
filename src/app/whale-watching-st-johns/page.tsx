@@ -33,9 +33,9 @@ const faqs = [
 ];
 
 export const metadata: Metadata = pageMetadata({
-  title: "Whale Watching St. John's — Season & Cruise Timing Guide",
+  title: "Whale Watching in St. John's — Season Guide for Cruise Passengers",
   description:
-    "Whale watching guide for St. John's, Newfoundland and Labrador cruise passengers — best months, sighting likelihood, operators, and return-to-ship advice.",
+    "Whale watching near St. John's, Newfoundland — best months, sighting likelihood, boat tours, and how to fit wildlife into a cruise port day.",
   path,
 });
 

@@ -33,9 +33,9 @@ const faqs = [
 ];
 
 export const metadata: Metadata = pageMetadata({
-  title: "Signal Hill Guide — St. John's, Newfoundland and Labrador",
+  title: "Signal Hill Guide — Cabot Tower Views From St. John's Cruise Port",
   description:
-    "Signal Hill guide for cruise passengers — Cabot Tower, history, views, walking advice, photography tips, and shore excursion planning in St. John's, NL.",
+    "Signal Hill and Cabot Tower for St. John's cruise passengers — harbour views, walking advice, photography tips, and realistic port-day timing in Newfoundland.",
   path,
 });
 

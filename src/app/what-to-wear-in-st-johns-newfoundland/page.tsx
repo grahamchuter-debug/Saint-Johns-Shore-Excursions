@@ -43,9 +43,9 @@ const faqs = [
 ];
 
 export const metadata: Metadata = pageMetadata({
-  title: "What To Wear In St. John's, Newfoundland — Cruise Packing Guide",
+  title: "What to Wear in St. John's Newfoundland — Cruise Layers & Weather",
   description:
-    "What to wear in St. John's, Newfoundland and Labrador on a cruise — layers, wind, fog, rain, boat tours, Signal Hill, and month-by-month packing for Canada & New England calls.",
+    "What to wear in St. John's, Newfoundland on a cruise — layers for wind, fog, and rain, plus packing tips for Signal Hill, Cape Spear, and boat tours.",
   path,
 });
 

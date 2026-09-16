@@ -33,9 +33,9 @@ const faqs = [
 ];
 
 export const metadata: Metadata = pageMetadata({
-  title: "One Day In St. John's From A Cruise Ship — Itinerary Guide",
+  title: "One Day in St. John's From a Cruise Ship — 4, 6 & 8 Hour Plans",
   description:
-    "Sample itineraries for 4, 6, and 8 hours ashore in St. John's, Newfoundland and Labrador — walking, taxis, excursions, food, photography, and return-to-ship timing.",
+    "One day in St. John's from the cruise port — sample 4, 6, and 8 hour itineraries covering downtown, Signal Hill, Cape Spear, wildlife timing, and return buffers.",
   path,
 });
 

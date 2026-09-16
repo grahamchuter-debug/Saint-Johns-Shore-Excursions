@@ -33,9 +33,9 @@ const faqs = [
 ];
 
 export const metadata: Metadata = pageMetadata({
-  title: "Icebergs Near St. John's — Seasonal Guide for Cruise Passengers",
+  title: "Icebergs Near St. John's — Seasonal Expectations for Cruise Days",
   description:
-    "Honest iceberg season guide for St. John's, Newfoundland and Labrador — best months, expectations, and why sightings are never guaranteed.",
+    "Icebergs near St. John's, Newfoundland — best months, honest sighting expectations, and why iceberg views are never guaranteed on a cruise call.",
   path,
 });
 

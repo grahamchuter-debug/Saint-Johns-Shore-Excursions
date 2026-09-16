@@ -86,9 +86,9 @@ const faqs = [
 ];
 
 export const metadata: Metadata = pageMetadata({
-  title: "When Can You See Puffins In Newfoundland? — Cruise Passenger Guide",
+  title: "When Can You See Puffins in Newfoundland? — Season & Cruise Timing",
   description:
-    "Honest puffin season guide for St. John's, Newfoundland and Labrador cruise passengers — Witless Bay colonies, best months, boat tours, and what is never guaranteed.",
+    "When can you see puffins in Newfoundland from St. John's? Nesting season months, Witless Bay boat tours, and honest cruise-day timing for Atlantic puffin watching.",
   path,
 });
 

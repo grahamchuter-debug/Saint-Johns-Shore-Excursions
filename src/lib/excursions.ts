@@ -114,7 +114,7 @@ export const excursions: Excursion[] = [
     title: "Cape Spear Shore Excursion — Easternmost Point of North America",
     shortTitle: "Cape Spear",
     summary:
-      "Visit the easternmost point of continental North America — historic lighthouses, cliff walks, and Atlantic drama a short drive from St. John's cruise port.",
+      "Cape Spear shore excursion from St. John's cruise port — easternmost point of North America, historic lighthouses, and Atlantic cliffs on a short drive from the terminal.",
     duration: "3–4 hours",
     fitness: "Easy",
     distanceFromTerminal:
@@ -184,7 +184,7 @@ export const excursions: Excursion[] = [
     title: "Whale Watching Cruise from St. John's, Newfoundland and Labrador",
     shortTitle: "Whale Watching",
     summary:
-      "Boat-based whale watching from the Avalon Peninsula — humpbacks, minkes, and occasional fin whales in season, with honest guidance on sighting likelihood.",
+      "Whale watching cruise from St. John's, Newfoundland — humpbacks and minkes in season, with honest sighting guidance for cruise passengers.",
     duration: "3–4 hours (typical boat tour)",
     fitness: "Easy",
     distanceFromTerminal:
@@ -254,7 +254,7 @@ export const excursions: Excursion[] = [
     title: "Puffin Watching Tour from St. John's, Newfoundland and Labrador",
     shortTitle: "Puffin Tour",
     summary:
-      "Boat tours to Atlantic puffin colonies near the Avalon Peninsula — seasonal nesting access with honest timing advice for cruise passengers.",
+      "Puffin boat tours from St. John's for cruise visitors — Atlantic puffin colonies near the Avalon Peninsula, seasonal nesting months, and honest timing for Newfoundland port days.",
     duration: "3.5–5 hours",
     fitness: "Easy",
     distanceFromTerminal:

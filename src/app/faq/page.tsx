@@ -27,7 +27,7 @@ const faqs = [
   {
     question: "Can I book excursions on this website?",
     answer:
-      "Not yet — use the enquire form and we will recommend options matched to your ship schedule. Enquiry-only, no online checkout.",
+      "No — this site does not take online bookings or confirmations. Email us via the enquire page and we will recommend options matched to your ship schedule. Enquiry-only.",
   },
   {
     question: "Are puffins, whales, and icebergs guaranteed?",
